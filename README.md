@@ -232,6 +232,15 @@ print("\nAll tasks completed.")
 
 ---
 
+## Why to choose it?
+- Interactive in notebooks and terminals – unlike tqdm, which is static in notebooks.
+- Easy customization – supports CSS styling in notebooks and multi-color bars in the terminal.
+- Lightweight and simple – less steep learning curve than rich but still very powerful.
+- Add-on, not a replacement – it works seamlessly alongside existing Python code.
+- Nested progress bars – handle parent/child tasks easily, which most other libraries can’t do out of the box.
+
+---
+
 ## Modules Overview
 
 - **progress_bar.py:** Terminal progress bars (single, nested, parallel).
@@ -244,3 +253,4 @@ print("\nAll tasks completed.")
 ---
 
 ## Developed by **Muhammad Abubakar Siddique Ansari**
+
