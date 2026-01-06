@@ -31,17 +31,6 @@ jobs:
           echo "PACKAGE_VERSION=${base_version}+g${short_sha}" >> $GITHUB_ENV
           echo "Version will be $PACKAGE_VERSION"
 
-      - name: Update pyproject.toml with dynamic version
-        run: |
-          python - <<EOF
-import tomli, tomli_w
-with open("pyproject.toml","rb") as f:
-    data = tomli.load(f)
-data["project"]["version"] = "${{ env.PACKAGE_VERSION }}"
-with open("pyproject.toml","wb") as f:
-    tomli_w.dump(data,f)
-EOF
-
       - name: Build package
         run: python -m build
 
