@@ -1,6 +1,6 @@
 [project]
 name = "progressive_py"
-version = "0.1.1"
+version = "0.1.2"
 description = "Elegant, customizable progress bars and spinners for Python — in both terminal and Jupyter notebook environments!"
 authors = [
     { name = "Muhammad Abubakar Siddique Ansari", email = "ansaricodes@gmail.com" }
@@ -23,3 +23,4 @@ include-package-data = true
 requires = ["setuptools>=61.0", "wheel"]
 
 build-backend = "setuptools.build_meta"
+
