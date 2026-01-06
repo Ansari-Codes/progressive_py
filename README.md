@@ -1,5 +1,7 @@
 [Github](https://github.com/Ansari-Codes/progressive_py/)
+
 ![ ](https://github.com/Ansari-Codes/progressive_py/blob/main/docs/ProgressivePy.png?raw=true)
+
 # ProgressivePy
 
 
@@ -254,5 +256,6 @@ print("\nAll tasks completed.")
 ---
 
 ## Developed by **Muhammad Abubakar Siddique Ansari**
+
 
 
