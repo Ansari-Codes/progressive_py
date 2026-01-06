@@ -25,6 +25,11 @@ Elegant, customizable progress bars and spinners for Python — in both terminal
 pip install git+https://github.com/Ansari-Codes/progressive_py.git
 ```
 
+## Installation from pypi
+
+```bash
+pip install progressive-py
+```
 ---
 
 ## Quick Start
@@ -222,7 +227,7 @@ manager.wait_all()
 print("\nAll tasks completed.")
 ```
 
-# See docs/* documentation for more info
+# See [documentation](https://github.com/Ansari-Codes/progressive_py/tree/main/docs) for more info
 
 ---
 
@@ -236,11 +241,14 @@ print("\nAll tasks completed.")
 ---
 
 ## Why to choose it?
-- Interactive in notebooks and terminals – unlike tqdm, which is static in notebooks.
-- Easy customization – supports CSS styling in notebooks and multi-color bars in the terminal.
-- Lightweight and simple – less steep learning curve than rich but still very powerful.
-- Add-on, not a replacement – it works seamlessly alongside existing Python code.
-- Nested progress bars – handle parent/child tasks easily, which most other libraries can’t do out of the box.
+TQDM, simple, esay to use. But not customizable in any environment. Rich, highly customizable, but learning cruve is high. Alive-progress, no notebook support. But this library provides you with both environments with high customizablity.
+
+- Interactive in notebooks and terminals.
+- Easy customization.
+- Lightweight and simple.
+- Nested progress bars.
+
+An important thing to note: This library is not a replacement of existing libs, but just an **add on**.
 
 ---
 
@@ -256,6 +264,7 @@ print("\nAll tasks completed.")
 ---
 
 ## Developed by **Muhammad Abubakar Siddique Ansari**
+
 
 
 
