@@ -18,6 +18,8 @@ Elegant, customizable progress bars and spinners for Python — in both terminal
 - **Low dependencies:** Lightweight and easy to install.
 - **Thread management:** Run multiple bars/spinners concurrently.
 
+See [BenchMarks](https://github.com/Ansari-Codes/progressive_py/blob/main/BENCHMARK.md)
+
 ---
 ## Installation from Git
 
@@ -264,6 +266,7 @@ An important thing to note: This library is not a replacement of existing libs, 
 ---
 
 ## Developed by **Muhammad Abubakar Siddique Ansari**
+
 
 
 
