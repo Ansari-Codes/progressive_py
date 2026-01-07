@@ -44,6 +44,7 @@ from progressive_py.progress_bar import simple, time
 for i in simple(range(100), txt_lf="Processing {iters} "):
     time.sleep(0.1)
 ```
+![Preview of output](https://github.com/Ansari-Codes/progressive_py/blob/main/docs/assets/simplepbar.gif?raw=true)
 
 ### Styled Progress Bar
 
@@ -64,6 +65,7 @@ for i in simple(range(100),
                 ):
     time.sleep(0.05)
 ```
+![Preview output](https://github.com/Ansari-Codes/progressive_py/blob/main/docs/assets/styledpbar.gif?raw=true)
 
 ### Terminal Spinner
 
@@ -81,6 +83,7 @@ spinner.start()
 time.sleep(2)
 spinner.stop()
 ```
+![Spinner](https://github.com/Ansari-Codes/progressive_py/blob/main/docs/assets/spinner_styled.gif?raw=true)
 
 ### Notebook Progress Bar
 
@@ -106,6 +109,7 @@ for i in range(total + 1):
     time.sleep(0.03)
 print("Progress Complete!")
 ```
+![Output](https://github.com/Ansari-Codes/progressive_py/blob/main/docs/assets/notebookpbar.gif?raw=true)
 
 ### Notebook Spinner
 
@@ -118,6 +122,7 @@ spn.start()
 time.sleep(2)
 spn.stop()
 ```
+![Spinner](https://github.com/Ansari-Codes/progressive_py/blob/main/docs/assets/ntbkspinner.gif?raw=true)
 
 ### Style Spinner
 
@@ -170,6 +175,7 @@ for i in range(21):
     time.sleep(0.5)
 spinner.stop()
 ```
+![Spinner styled](https://github.com/Ansari-Codes/progressive_py/blob/main/docs/assets/ntbkspinnerstyled.gif?raw=true)
 
 ---
 
@@ -198,6 +204,7 @@ childs = {
 }
 nested_bar(main, childs)
 ```
+![Nested bars - ParentChild](https://github.com/Ansari-Codes/progressive_py/blob/main/docs/assets/nestedpbar.gif?raw=true)
 
 ### Threaded Bars
 
@@ -228,6 +235,7 @@ manager.start_all(cool_down=0.02)
 manager.wait_all()
 print("\nAll tasks completed.")
 ```
+![Threaded](https://github.com/Ansari-Codes/progressive_py/blob/main/docs/assets/threadedpbar.gif?raw=true)
 
 # See [documentation](https://github.com/Ansari-Codes/progressive_py/tree/main/docs) for more info
 
@@ -266,6 +274,7 @@ An important thing to note: This library is not a replacement of existing libs, 
 ---
 
 ## Developed by **Muhammad Abubakar Siddique Ansari**
+
 
 
 
