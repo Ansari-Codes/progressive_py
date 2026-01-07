@@ -7,6 +7,12 @@
 ## Software / Environment
 - OS: Windows-10-10.0.19045-SP0
 - Python: 3.10.11
+- Notebook: Jupyter Notebook / Lab
+- Libraries:
+  - tqdm: 4.67.1
+  - rich: 13.9.4
+  - alive_progress: 3.3.0
+  - progressive_py: 0.1.3
 
 # Performance
 ProgressivePy uses time-gated approach. Mean that updates are triggered after specific interval, not on every iteration. That interval is taken via `freq` (default=0.1) parameter. 
